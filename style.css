@@ -3,6 +3,7 @@ body {
 }
 input {
     height: 22px;
+    width: 280px;
     padding: 8px;
     font-size: 1.2em;
     margin: 15px 70px;
@@ -17,11 +18,13 @@ input[type=number]:focus{
 
 button {
     background-color: #007afe;
+    display: flex;
+    justify-content: space-between;
     border: none;
     color: #fff;
     padding: 15px 32px;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     border-radius: 4px;
     cursor: pointer;
 }
@@ -29,6 +32,10 @@ button {
 button:hover {
     background-color: #0069d9;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+}
+
+.container-buttons {
+    display: flex;
 }
 
 .container {
