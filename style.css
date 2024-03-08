@@ -21,6 +21,7 @@ button {
     background-color: #007afe;
     display: flex;
     justify-content: space-between;
+    margin-right: 5px;
     border: none;
     color: #fff;
     padding: 15px 32px;
